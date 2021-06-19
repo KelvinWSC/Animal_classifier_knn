@@ -35,7 +35,7 @@ Predict the category the grey spot based on the results of the n nearest neighbo
 
 ## **Model Construction**
 
-**Data Cleansing**
+### **Data Cleansing**
 
 First I read the csv file and drop the column 'animal_name', as it is irrelevant for the model. Then I check if there is any missing value in the dataset.
 
@@ -48,7 +48,7 @@ Also, I split the dataset into training and testing set under 80/20 ratio.
 ![image](https://user-images.githubusercontent.com/80243823/122640117-40290e80-d130-11eb-83f0-1adcaec81112.png)
 
 
-**Model Performance**
+### **Model Performance**
 
 Instead of training 1 model, I train 30 models (from 1-NN to 30-NN) and compare their performances based on accuracy.
 
@@ -60,3 +60,19 @@ However, for practice purposes, I employ 5-NN as the final model.
 
 p.s. 1-NN usually is an overfitting model. In order to reduce the model's sensitivity to extreme values, higher NN is applied instead.
 
+### **Testing and Transforming Numeric Results to English**
+
+As the actual animal class names are stored in a separate csv file, 
+![image](https://user-images.githubusercontent.com/80243823/122639347-ea526780-d12b-11eb-968a-b404ec45fe25.png)
+
+A dictionary is created to parse the class number into class name,
+![image](https://user-images.githubusercontent.com/80243823/122642146-7c15a100-d13b-11eb-8301-f778b6c1b00d.png)
+
+Mock-up data to test the model,
+![image](https://user-images.githubusercontent.com/80243823/122642291-4329fc00-d13c-11eb-8818-c2320e1005d7.png)
+
+Results,
+
+![image](https://user-images.githubusercontent.com/80243823/122642339-9734e080-d13c-11eb-8aa5-50a27ee0ba9f.png)
+
+![image](https://user-images.githubusercontent.com/80243823/122642347-a025b200-d13c-11eb-973b-e1b4e5e9cfc2.png)
