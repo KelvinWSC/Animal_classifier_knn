@@ -63,6 +63,7 @@ p.s. 1-NN usually is an overfitting model. In order to reduce the model's sensit
 ### **Testing and Transforming Numeric Results to English**
 
 As the actual animal class names are stored in a separate csv file, 
+
 ![image](https://user-images.githubusercontent.com/80243823/122639347-ea526780-d12b-11eb-968a-b404ec45fe25.png)
 
 A dictionary is created to parse the class number into class name,
