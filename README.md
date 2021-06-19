@@ -1,11 +1,11 @@
 # Animal Classifier
 
-This is a practice to use k_NN algorithm to classify animals.
+This is a practice to use k-NN algorithm to classify animals.
 
 The same technique can be used to predict customer behaviour, product preference, voting tendency, possibility of fraud etc.
 
 ## **Goal**
-To develop a model, using k_NN algorithm and the dataset given by a zoo, to classify animals into correct class type based on the observable traits of the animal.
+To develop a model, using k-NN algorithm and the dataset given by a zoo, to classify animals into correct class type based on the observable traits of the animal.
 
 ## **Dataset**
 The dataset consists of 101 animals from a zoo. There are 16 variables with various traits to describe the animals.
@@ -14,7 +14,7 @@ The dataset consists of 101 animals from a zoo. There are 16 variables with vari
 The 7 Class Types are: Mammal, Bird, Reptile, Fish, Amphibian, Bug and Invertebrate
 ![image](https://user-images.githubusercontent.com/80243823/122639347-ea526780-d12b-11eb-968a-b404ec45fe25.png)
 
-## **k_NN algorithm**
+## **k-NN algorithm**
 The algorithm can be summarized as follows,
 
 ![image](https://user-images.githubusercontent.com/80243823/122639675-bed07c80-d12d-11eb-94e4-efa2135d8826.png)
