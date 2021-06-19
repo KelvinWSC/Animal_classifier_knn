@@ -57,5 +57,6 @@ Instead of training 1 model, I train 30 models (from 1-NN to 30-NN) and compare 
 
 For this dataset, using 1-NN (finding the most similar animal class and predict the animal as that class) yields the highest accuracy.
 However, for practice purposes, I employ 5-NN as the final model.
+
 p.s. 1-NN usually is an overfitting model. In order to reduce the model's sensitivity to extreme values, higher NN is applied instead.
 
