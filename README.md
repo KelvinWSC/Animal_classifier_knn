@@ -73,7 +73,6 @@ Mock-up data to test the model,
 ![image](https://user-images.githubusercontent.com/80243823/122642291-4329fc00-d13c-11eb-8818-c2320e1005d7.png)
 
 Results,
-a
 
 ![image](https://user-images.githubusercontent.com/80243823/122642339-9734e080-d13c-11eb-8aa5-50a27ee0ba9f.png)
 
