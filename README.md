@@ -1,7 +1,7 @@
 # Animal Classifier
 
 This is a practice to use k-NN algorithm to classify animals.
-aaaa
+aa
 The same technique can be used to predict customer behaviour, product preference, voting tendency, possibility of fraud etc.
 
 ## **Goal**
