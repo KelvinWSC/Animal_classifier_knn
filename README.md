@@ -69,7 +69,7 @@ As the actual animal class names are stored in a separate csv file,
 A dictionary is created to parse the class number into class name,
 ![image](https://user-images.githubusercontent.com/80243823/122642146-7c15a100-d13b-11eb-8301-f778b6c1b00d.png)
 
-Mock-up data to test the model,
+Mock-up data to test the model, each row represents the characteristics of 1 animal,
 ![image](https://user-images.githubusercontent.com/80243823/122642291-4329fc00-d13c-11eb-8818-c2320e1005d7.png)
 
 Results,
