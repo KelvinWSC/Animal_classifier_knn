@@ -3,7 +3,7 @@
 This is a practice to use k-NN algorithm to classify animals.
 
 The same technique can be used to predict customer behaviour, product preference, voting tendency, possibility of fraud etc.
-
+ 
 ## **Goal**
 To develop a model, using k-NN algorithm and the dataset given by a zoo, to classify animals into correct class type based on the observable traits of the animal.
 
